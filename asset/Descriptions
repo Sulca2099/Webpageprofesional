@@ -1,0 +1,4 @@
+The main.css is for designing the regular css codefor the webpages
+clouds.css ios the interactive clouds that float around for some webpages and only is loading in some cases and can be disabled easily.
+main.js is the javascript forthe framework.
+clouds.js is the for the clouds.
