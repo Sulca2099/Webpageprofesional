@@ -40,7 +40,7 @@ publicdomaindedication img{/*over rides any existing stylestructure*/
   width:16px;/*changes the width*/
   height:8px;/*changes the height*/
 }
-publicdomaindedication a{
+publicdomaindedication a{/*customstyles*/
   text-decoration:none;/*rests the links decoration*/
   color:--text-color;/*sets the color to a changable color based of the mode*/
 }
