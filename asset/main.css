@@ -5,6 +5,7 @@
   --text-color:black;/*this can be chanhged for the dark mode*/
   --border-rad:12px;/*this is the border settings*/
   --img-link:'asset/modern.jpg';/*this is to define the backgrou8nd image*/
+  --mode-hover-color:cyan;/*the backgorund for hovered links in topbar...*/
 }
 topbar{/*css for the topbar*/
   background-color:rgba(0,0,0,0);/*set background color to transparent*/
@@ -12,6 +13,16 @@ topbar{/*css for the topbar*/
   postion:fixed;/*makes the topbar stay in one spot no matter what*/
   width:100%;/*this is to make sure that the top bar covers the whole screen width*/
   overflow:hidden;/*hides the display issues*/
+}
+topbar a.link_tiny{/*links in the topbar*/
+  text-decoration:none;
+  font-size:14px;
+  background-color:rgba(0,0,0,0);
+  color:--text-color;
+}
+
+topbar a.link_tiny{/*links in the topbar when hovered*/
+  background-color:--mode-hover-color;
 }
 background_modern{/*a modern background*/
   background-image:url(--img-link);/*loading the image*/
@@ -45,7 +56,7 @@ a.veryfancy:hover{/*code for links when you hover over them*/
   clip-path:border-radius(--border-rad);
 }
 .block_hardedges{/*creating bl0ocks in the webpage*/
-  background-color:--text-color;/*this will change when dark mode is activated*/
+  background-color:--mode-hover-color;/*this will change when dark mode is activated*/
   
 }
 
