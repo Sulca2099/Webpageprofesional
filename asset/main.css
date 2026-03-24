@@ -23,7 +23,7 @@ a.veryfancy:hover{/*code for links when you hover over them*/
 .img_clippings{/*images will be clipped*/ 
   clip-path:border-radius(--border-rad);
 }
-.block_hardedges{
+.block_hardedges{/*creating bl0ocks in the webpage*/
   background-color:--text-color;/*this will change when dark mode is activated*/
   
 }
