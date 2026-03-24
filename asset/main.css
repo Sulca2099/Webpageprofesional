@@ -1,3 +1,4 @@
+/*/////////CSS STYLES AND CONFIGURATIONS*/
 :root{/*holds varibles*/
   --blur-amount:12px;/*this is for the blur to change it*/
   --blur-hovered:30px/*this is the blur when hovered*/
@@ -32,4 +33,13 @@ background_modern{/*a modern background*/
   background-repeat:no-repeat;/*makes sure that the image does not repeat*/
   background-position:center;/*make sure that the background image is full centered*/
   backgroun-size:cover;/*make sure that the background covers the whole webpage*/
+}
+/*/////////CSS FONTS*/
+@font-face{
+  font-family:'profesional';/*names the font*/
+  src:url('assets/profe.otf') 
+}
+/*/////////CSS ANIMATIONS*/
+@keyframes topbar_shrink{/*the top bar interactive shrink*/
+
 }
