@@ -13,6 +13,22 @@ topbar{/*css for the topbar*/
   width:100%;/*this is to make sure that the top bar covers the whole screen width*/
   overflow:hidden;/*hides the display issues*/
 }
+background_modern{/*a modern background*/
+  background-image:url(--img-link);/*loading the image*/
+  background-repeat:no-repeat;/*makes sure that the image does not repeat*/
+  background-position:center;/*make sure that the background image is full centered*/
+  backgroun-size:cover;/*make sure that the background covers the whole webpage*/
+}
+publicdomaindedication{/*the dedication to public domain*/
+  font-family:arial;/*loads profesional font*/
+  font-size:6px;/*sets the text size to small*/
+  color:--text-color;/*sets the color to changable based of mode*/
+}
+publicdomaindedication img{/*over rides any existing stylestructure*/
+  clip-path:none;/*overides the clip path*/
+  width:16px;/*changes the width*/
+  height:8px;/*changes the height*/
+}
 a.veryfancy{/*code to make links fancy*/
   text-decoration:none;/*this is for eliminating the blue line and underline*/
   background-color:rgba(0,0,0,0);/*I want the color to match the main background*/
@@ -28,12 +44,7 @@ a.veryfancy:hover{/*code for links when you hover over them*/
   background-color:--text-color;/*this will change when dark mode is activated*/
   
 }
-background_modern{/*a modern background*/
-  background-image:url(--img-link);/*loading the image*/
-  background-repeat:no-repeat;/*makes sure that the image does not repeat*/
-  background-position:center;/*make sure that the background image is full centered*/
-  backgroun-size:cover;/*make sure that the background covers the whole webpage*/
-}
+
 /*/////////CSS FONTS*/
 @font-face{
   font-family:'profesional';/*names the font*/
