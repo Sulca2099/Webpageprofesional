@@ -29,6 +29,10 @@ publicdomaindedication img{/*over rides any existing stylestructure*/
   width:16px;/*changes the width*/
   height:8px;/*changes the height*/
 }
+publicdomaindedication a{
+  text-decoration:none;/*rests the links decoration*/
+  color:--text-color;/*sets the color to a changable color based of the mode*/
+}
 a.veryfancy{/*code to make links fancy*/
   text-decoration:none;/*this is for eliminating the blue line and underline*/
   background-color:rgba(0,0,0,0);/*I want the color to match the main background*/
