@@ -16,14 +16,14 @@
   overflow:hidden;/*hides the display issues*/
   text-align:center;
 }
-.topbar a.link_tiny{/*links in the topbar*/
+.topbar.link_tiny{/*links in the topbar*/
   text-decoration:none;
   font-size:14px;
   background-color:rgba(0,0,0,0);
   color:--text-color;
 }
 
-.topbar a.link_tiny:hover{/*links in the topbar when hovered*/
+.topbar.link_tiny:hover{/*links in the topbar when hovered*/
   background-color:--mode-hover-color;
 }
 publicdomaindedication{/*the dedication to public domain*/
