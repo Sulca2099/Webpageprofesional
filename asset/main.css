@@ -13,13 +13,13 @@ topbar{/*css for the topbar*/
   position:fixed;/*makes the topbar stay in one spot no matter what*/
   width:100%;/*this is to make sure that the top bar covers the whole screen width*/
   overflow:hidden;/*hides the display issues*/
+  text-align:center;
 }
 topbar a.link_tiny{/*links in the topbar*/
   text-decoration:none;
   font-size:14px;
   background-color:rgba(0,0,0,0);
   color:--text-color;
-  text-align: center;
 }
 
 topbar a.link_tiny{/*links in the topbar when hovered*/
