@@ -7,7 +7,7 @@
   --img-link:'asset/modern.jpg';/*this is to define the backgrou8nd image*/
   --mode-hover-color:cyan;/*the backgorund for hovered links in topbar...*/
 }
-topbar{/*css for the topbar*/
+.topbar{/*css for the topbar*/
   background-position-x: center;/*test for making it center*/
   background-color:rgba(0,0,0,0);/*set background color to transparent*/
   backdrop-filter:blur(--blur-amount);/*blurs the covered areas*/
@@ -16,14 +16,14 @@ topbar{/*css for the topbar*/
   overflow:hidden;/*hides the display issues*/
   text-align:center;
 }
-topbar a.link_tiny{/*links in the topbar*/
+.topbar a.link_tiny{/*links in the topbar*/
   text-decoration:none;
   font-size:14px;
   background-color:rgba(0,0,0,0);
   color:--text-color;
 }
 
-topbar a.link_tiny{/*links in the topbar when hovered*/
+.topbar a.link_tiny:hover{/*links in the topbar when hovered*/
   background-color:--mode-hover-color;
 }
 publicdomaindedication{/*the dedication to public domain*/
