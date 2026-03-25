@@ -18,23 +18,23 @@
   overflow:hidden;/*hides the display issues*/
   text-align:center;
 }
-.topbar.link_tiny{/*links in the topbar*/
+.link_tiny{/*links in the topbar*/
   text-decoration:none;
   font-size:14px;
   background-color:rgba(0,0,0,0);
   color:var(--text-color);
 }
 
-.topbar.link_tiny:hover{/*links in the topbar when hovered*/
+.link_tiny:hover{/*links in the topbar when hovered*/
   background-color:var(--mode-hover-color);
 }
-.topbar.big_link{/*the main link*/
+.big_link{/*the main link*/
   text-decoration:none;
   font-size:30px;
   background-color:rgba(0,0,0,0);
   color:var(--text-color);
 }
-.topbar.big_link:hover{
+.big_link:hover{
   transform:scale(1.25);
 }
 .publicdomaindedication{/*the dedication to public domain*/
