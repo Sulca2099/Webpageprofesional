@@ -6,6 +6,7 @@
   --border-rad:12px;/*this is the border settings*/
   --img-link:'asset/modern.jpg';/*this is to define the backgrou8nd image*/
   --mode-hover-color:cyan;/*the backgorund for hovered links in topbar...*/
+  --mode-hover-color-transparent:rgba(0,30,68,.2);
 }
 #main{
   padding:10px;
@@ -24,13 +25,15 @@
 .link_tiny{/*links in the topbar*/
   text-decoration:none;
   font-size:14px;
-  padding:20px;
+  padding:4px;
   background-color:rgba(0,0,0,0);
   color:var(--text-color);
 }
 
 .link_tiny:hover{/*links in the topbar when hovered*/
-  background-color:var(--mode-hover-color);
+  background-color:var(--mode-hover-color-transparent);
+  transform:scale(1.4);
+  backdrop-filter:blur(var(--blur-hovered));
 }
 .big_link{/*the main link*/
   text-decoration:none;
