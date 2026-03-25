@@ -10,7 +10,7 @@
 topbar{/*css for the topbar*/
   background-color:rgba(0,0,0,0);/*set background color to transparent*/
   backdrop-filter:blur(--blur-amount);/*blurs the covered areas*/
-  postion:fixed;/*makes the topbar stay in one spot no matter what*/
+  position:fixed;/*makes the topbar stay in one spot no matter what*/
   width:100%;/*this is to make sure that the top bar covers the whole screen width*/
   overflow:hidden;/*hides the display issues*/
 }
@@ -28,7 +28,7 @@ background_modern{/*a modern background*/
   background-image:url(--img-link);/*loading the image*/
   background-repeat:no-repeat;/*makes sure that the image does not repeat*/
   background-position:center;/*make sure that the background image is full centered*/
-  backgroun-size:cover;/*make sure that the background covers the whole webpage*/
+  background-size:cover;/*make sure that the background covers the whole webpage*/
 }
 publicdomaindedication{/*the dedication to public domain*/
   font-family:arial;/*loads profesional font*/
