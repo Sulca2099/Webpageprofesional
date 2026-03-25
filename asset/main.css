@@ -7,6 +7,9 @@
   --img-link:'asset/modern.jpg';/*this is to define the backgrou8nd image*/
   --mode-hover-color:cyan;/*the backgorund for hovered links in topbar...*/
 }
+#main{
+  padding:10px;
+}
 .topbar{/*css for the topbar*/
   background-position-x: center;/*test for making it center*/
   top:0%;
