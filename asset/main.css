@@ -26,12 +26,6 @@ topbar a.link_tiny{/*links in the topbar*/
 topbar a.link_tiny{/*links in the topbar when hovered*/
   background-color:--mode-hover-color;
 }
-background_modern{/*a modern background*/
-  background-image:url(--img-link);/*loading the image*/
-  background-repeat:no-repeat;/*makes sure that the image does not repeat*/
-  background-position:center;/*make sure that the background image is full centered*/
-  background-size:cover;/*make sure that the background covers the whole webpage*/
-}
 publicdomaindedication{/*the dedication to public domain*/
   font-family:arial;/*loads profesional font*/
   font-size:6px;/*sets the text size to small*/
@@ -56,6 +50,11 @@ a.veryfancy:hover{/*code for links when you hover over them*/
 }
 .body_text_enhan{/*to allow the body to be custom*/
   text-align: center;/*centers the text*/
+  background-image:url(--img-link);/*loading the image*/
+  background-repeat:no-repeat;/*makes sure that the image does not repeat*/
+  background-position:center;/*make sure that the background image is full centered*/
+  background-size:cover;/*make sure that the background covers the whole webpage*/
+
 }
 .img_clippings{/*images will be clipped*/ 
   clip-path:border-radius(--border-rad);
