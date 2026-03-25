@@ -10,6 +10,7 @@
 .topbar{/*css for the topbar*/
   background-position-x: center;/*test for making it center*/
   top:0%;
+  height:70px;
   background-color:rgba(0,0,0,0);/*set background color to transparent*/
   backdrop-filter:blur(var(--blur-amount));/*blurs the covered areas*/
   position:fixed;/*makes the topbar stay in one spot no matter what*/
