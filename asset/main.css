@@ -37,11 +37,6 @@
 .topbar.big_link:hover{
   transform:scale(1.25);
 }
-.test{/*to see if trhe main.css loaded*/
-  color:red;
-  background-color:green;
-  font-size:30px;
-}
 .publicdomaindedication{/*the dedication to public domain*/
   font-family:arial;/*loads profesional font*/
   font-size:6px;/*sets the text size to small*/
@@ -79,6 +74,12 @@ a.veryfancy:hover{/*code for links when you hover over them*/
   background-color:var(--mode-hover-color);/*this will change when dark mode is activated*/
   
 }
+.test{/*to see if trhe main.css loaded on bottom for prioity to see if errors occured*/
+  color:red;
+  background-color:green;
+  font-size:30px;
+}
+
 
 /*/////////CSS FONTS*/
 @font-face{
