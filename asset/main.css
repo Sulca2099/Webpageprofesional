@@ -8,6 +8,7 @@
   --mode-hover-color:cyan;/*the backgorund for hovered links in topbar...*/
 }
 topbar{/*css for the topbar*/
+  background-position-x: center;
   background-color:rgba(0,0,0,0);/*set background color to transparent*/
   backdrop-filter:blur(--blur-amount);/*blurs the covered areas*/
   position:fixed;/*makes the topbar stay in one spot no matter what*/
