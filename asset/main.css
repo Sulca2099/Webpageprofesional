@@ -10,7 +10,7 @@
 .topbar{/*css for the topbar*/
   background-position-x: center;/*test for making it center*/
   background-color:rgba(0,0,0,0);/*set background color to transparent*/
-  backdrop-filter:blur(--blur-amount);/*blurs the covered areas*/
+  backdrop-filter:blur(var(--blur-amount));/*blurs the covered areas*/
   position:fixed;/*makes the topbar stay in one spot no matter what*/
   width:100%;/*this is to make sure that the top bar covers the whole screen width*/
   overflow:hidden;/*hides the display issues*/
@@ -20,17 +20,17 @@
   text-decoration:none;
   font-size:14px;
   background-color:rgba(0,0,0,0);
-  color:--text-color;
+  color:var(--text-color);
 }
 
 .topbar.link_tiny:hover{/*links in the topbar when hovered*/
-  background-color:--mode-hover-color;
+  background-color:var(--mode-hover-color);
 }
 .topbar.big_link{/*the main link*/
   text-decoration:none;
   font-size:30px;
   background-color:rgba(0,0,0,0);
-  color:--text-color;
+  color:var(--text-color);
 }
 .topbar.big_link:hover{
   transform:scale(1.25);
@@ -40,41 +40,41 @@
   background-color:green;
   font-size:30px;
 }
-publicdomaindedication{/*the dedication to public domain*/
+.publicdomaindedication{/*the dedication to public domain*/
   font-family:arial;/*loads profesional font*/
   font-size:6px;/*sets the text size to small*/
-  color:--text-color;/*sets the color to changable based of mode*/
+  color:var(--text-color);/*sets the color to changable based of mode*/
 }
-publicdomaindedication img{/*over rides any existing stylestructure*/
+.publicdomaindedication img{/*over rides any existing stylestructure*/
   clip-path:none;/*overides the clip path*/
   width:16px;/*changes the width*/
   height:8px;/*changes the height*/
 }
-publicdomaindedication a{/*customstyles*/
+.publicdomaindedication a{/*customstyles*/
   text-decoration:none;/*rests the links decoration*/
-  color:--text-color;/*sets the color to a changable color based of the mode*/
+  color:var(--text-color);/*sets the color to a changable color based of the mode*/
 }
 a.veryfancy{/*code to make links fancy*/
   text-decoration:none;/*this is for eliminating the blue line and underline*/
   background-color:rgba(0,0,0,0);/*I want the color to match the main background*/
-  color:--text-color;/*color can change for dark mode*/
+  color:var(--text-color);/*color can change for dark mode*/
 }
 a.veryfancy:hover{/*code for links when you hover over them*/
   background-color:blue;/*color changes while hovered*/
 }
 .body_text_enhan{/*to allow the body to be custom*/
   text-align: center;/*centers the text*/
-  background-image:url(--img-link);/*loading the image*/
+  background-image:url(var(--img-link));/*loading the image*/
   background-repeat:no-repeat;/*makes sure that the image does not repeat*/
   background-position:center;/*make sure that the background image is full centered*/
   background-size:cover;/*make sure that the background covers the whole webpage*/
 
 }
 .img_clippings{/*images will be clipped*/ 
-  clip-path:border-radius(--border-rad);
+  clip-path:border-radius(var(--border-rad));
 }
 .block_hardedges{/*creating bl0ocks in the webpage*/
-  background-color:--mode-hover-color;/*this will change when dark mode is activated*/
+  background-color:var(--mode-hover-color);/*this will change when dark mode is activated*/
   
 }
 
