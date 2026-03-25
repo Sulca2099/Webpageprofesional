@@ -26,7 +26,7 @@
 .topbar.link_tiny:hover{/*links in the topbar when hovered*/
   background-color:--mode-hover-color;
 }
-.topbar.big_link{
+.topbar.big_link{/*the main link*/
   text-decoration:none;
   font-size:30px;
   background-color:rgba(0,0,0,0);
@@ -34,6 +34,11 @@
 }
 .topbar.big_link:hover{
   transform:scale(1.25);
+}
+.test{/*to see if trhe main.css loaded*/
+  color:red;
+  background-color:green;
+  font-size:30px;
 }
 publicdomaindedication{/*the dedication to public domain*/
   font-family:arial;/*loads profesional font*/
