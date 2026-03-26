@@ -8,6 +8,8 @@ function showBlogEntries(){
             thisweb.innerHTML+=`<div class="blogelement"><div class="largededication">${(await (await fetch(i)).json).title}</div>${(await (await fetch(i)).json).description}<br>{${(await (await fetch(i)).json).date}}<div></div>`;
         }
     }
-    ex
+    catch{
+        alert("fail");
+    }
 }
 function makeWebBlog(){}
