@@ -64,7 +64,8 @@ a.veryfancy{/*code to make links fancy*/
   color:var(--text-color);/*color can change for dark mode*/
 }
 a.veryfancy:hover{/*code for links when you hover over them*/
-  background-color:blue;/*color changes while hovered*/
+  background-color:var(--mode-hover-color-transparent);/*color changes while hovered*/
+  clip-path:border-radius(var(--border-rad));
 }
 .body_text_enhan{/*to allow the body to be custom*/
   text-align: center;/*centers the text*/
