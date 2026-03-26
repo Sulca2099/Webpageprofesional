@@ -12,6 +12,7 @@
 #main{
   padding:10px;
   aling-items:center;
+  display:flex;
 }
 #topbar{/*css for the topbar*/
   background-position-x: center;/*test for making it center*/
@@ -88,7 +89,7 @@ a.veryfancy:hover{/*code for links when you hover over them*/
   
 }
 .quote{
-  font-size:28px;
+  font-size:14px;
   animation: text_change 2.3s infinite alternative;
 }
 .test{/*to see if trhe main.css loaded on bottom for prioity to see if errors occured*/
