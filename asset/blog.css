@@ -1,0 +1,11 @@
+@import url('main.css');
+.bloglongbox{/*this is where the blog desciptions go as a big box*/
+    background-color:var(--mode-hover-color-transparent);
+    overflow-x: auto;
+    overflow-y: hidden;/*hides y axis scroolbar*/
+    white-space: nowrap;
+}
+.blogelement{
+    background-color:var(--box-background-color);
+    border-radius:var(--border-rad);
+}
