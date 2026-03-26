@@ -1,6 +1,7 @@
 function darkMode(){}
 function showBlogEntries(){
     try{
+        alert("testing...");
         const data = await fetch("https://sulca2099.github.io/Webpageprofesional/blog/entries.json");
         const jsondata = (await data.json).link;
         const thisweb = document.getElementById('blogbody');
