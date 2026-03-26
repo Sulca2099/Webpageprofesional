@@ -86,6 +86,10 @@ a.veryfancy:hover{/*code for links when you hover over them*/
   background-color:var(--mode-hover-color);/*this will change when dark mode is activated*/
   
 }
+.quote{
+  font-size:28px;
+  animation: text_change 2.3s infinite alternative;
+}
 .test{/*to see if trhe main.css loaded on bottom for prioity to see if errors occured*/
   color:red;
   background-color:green;
@@ -102,3 +106,12 @@ a.veryfancy:hover{/*code for links when you hover over them*/
 @keyframes topbar_shrink{/*the top bar interactive shrink*/
 
 }
+@keyframes text_change{
+  0% {color:var(--text-color);
+  }
+  33% {color:red;
+  }
+  66% {color:greem;
+  }
+  100% {color:orange;
+  }
