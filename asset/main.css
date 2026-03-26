@@ -18,7 +18,7 @@
   background-color:rgba(0,0,0,0);/*set background color to transparent*/
   backdrop-filter:blur(var(--blur-amount));/*blurs the covered areas*/
   position:sticky;/*makes the topbar stay in one spot no matter what*/
-  width:100%;/*this is to make sure that the top bar covers the whole screen width*/
+  width:100% !important;/*this is to make sure that the top bar covers the whole screen width*/
   overflow:hidden;/*hides the display issues*/
   text-align:center;
 }
