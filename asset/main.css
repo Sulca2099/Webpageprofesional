@@ -50,6 +50,9 @@
   font-size:6px;/*sets the text size to small*/
   color:var(--text-color);/*sets the color to changable based of mode*/
 }
+.largededication{
+  font-size: 40px;
+}
 .publicdomaindedication img{/*over rides any existing stylestructure*/
   clip-path:none;/*overides the clip path*/
   width:16px;/*changes the width*/
@@ -74,7 +77,6 @@ a.veryfancy:hover{/*code for links when you hover over them*/
   background-repeat:no-repeat;/*makes sure that the image does not repeat*/
   background-position:center;/*make sure that the background image is full centered*/
   background-size:cover;/*make sure that the background covers the whole webpage*/
-
 }
 .img_clippings{/*images will be clipped*/ 
   clip-path:border-radius(var(--border-rad));
