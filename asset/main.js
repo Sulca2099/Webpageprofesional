@@ -16,3 +16,4 @@ function showBlogEntries(){
     }
 }
 function makeWebBlog(){}
+showBlogEntries();
