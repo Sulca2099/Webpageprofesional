@@ -4,7 +4,7 @@
   --blur-hovered:30px;/*this is the blur when hovered*/
   --text-color:black;/*this can be changed for the dark mode*/
   --border-rad:12px;/*this is the border settings*/
-  --img-link:'IMG_4439.jpeg';/*this is to define the background image*/
+  --img-link:url('IMG_4439.jpeg');/*this is to define the background image*/
   --mode-hover-color:cyan;/*the backgorund for hovered links in topbar...*/
   --mode-hover-color-transparent:rgba(0,30,68,.2);
   --box-background-color:rgb(83, 83, 240);/*the box(like boxblog) background color)*/
@@ -78,7 +78,7 @@ a.veryfancy:hover{/*code for links when you hover over them*/
 }
 .body_text_enhan{/*to allow the body to be custom*/
   text-align: center;/*centers the text*/
-  background-image:url(var(--img-link));/*loading the image*/
+  background-image:var(--img-link);/*loading the image*/
   background-repeat:no-repeat;/*makes sure that the image does not repeat*/
   background-position:center;/*make sure that the background image is full centered*/
   background-size:cover;/*make sure that the background covers the whole webpage*/
