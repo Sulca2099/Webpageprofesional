@@ -12,9 +12,13 @@
 #main{
   padding:10px;
   align-items:center;
+  
+  /*display:flex;*/
+}
+#main table{
   margin-left:auto;
   margin-right:auto;
-  /*display:flex;*/
+  width:50%;
 }
 #topbar{/*css for the topbar*/
   background-position-x: center;/*test for making it center*/
