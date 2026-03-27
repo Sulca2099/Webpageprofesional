@@ -1,6 +1,6 @@
 function darkMode(){}
 function showBlogEntries(){
-    alert('loading');
+    alert("loading");
     const thisweb = document.getElementById('blogbody');
     thisweb.innerHTML="Loading";
     try{
