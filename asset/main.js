@@ -1,4 +1,4 @@
-function darkMode(){}
+//function darkMode(){}
 function showBlogEntries(){
     alert("loading");
     const thisweb = document.getElementById('blogbody');
@@ -16,7 +16,7 @@ function showBlogEntries(){
         alert("fail");
     }
 }
-function makeWebBlog(){}
+//function makeWebBlog(){}
 function test(){
     alert("laoaded...");
 }
