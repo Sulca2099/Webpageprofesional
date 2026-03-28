@@ -105,7 +105,13 @@ a.veryfancy:hover{/*code for links when you hover over them*/
   font-size:30px;
 }
 
-
+.censored{
+  background-color: var(--text-color);
+  color:var(--text-color)
+}
+.censored:hover{
+  background-color: rgba(0,0,0,0);
+}
 /*/////////CSS FONTS*/
 @font-face{
   font-family:'profesional';/*names the font*/
