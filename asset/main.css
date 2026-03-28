@@ -107,7 +107,8 @@ a.veryfancy:hover{/*code for links when you hover over them*/
 
 .censored{
   background-color: var(--text-color);
-  color:var(--text-color)
+  color:var(--text-color);
+  width: fit-content;
 }
 .censored:hover{
   background-color: rgba(0,0,0,0);
